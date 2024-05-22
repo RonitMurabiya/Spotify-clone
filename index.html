@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlise.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="close invert">
+                <img src="svg/close.svg" alt="">
+            </div>
+            <div class="home grey">
+                <img class="invert" src="svg/spotify.svg" alt="logo">
+                <ul>
+                    <li>
+                        <img class="home-svg" src="svg/home.svg" alt="Home">Home</a>
+                    </li>
+                    <li>
+                        <img src="svg/search-01-stroke-rounded(1).svg" alt="Search">Search</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="library grey">
+                <div class="library-class-1">
+                    <div class="library-playlist">
+                        <ul>
+                            <li><img class="invert" src="svg/library.svg" alt="library">Your Library</li>
+                        </ul>
+                        <span class="plus">
+                            <img class="invert" src="svg/plus.svg" alt="add song">
+                        </span>
+                    </div>
+                    <div class="trend" align="left"><h4>Trending...</h4></div>
+                    <div class="library-box">
+                        <ol>
+                        </ol>
+                    </div>
+                </div>
+                <div class="library-class-2">
+                    <div class="links">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">legal</a>
+                        </div>
+                        <div><a href="https://www.spotify.com/in-en/safetyandprivacy/reporting-content">Safety & Privacy Center</a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">privacy Policy</a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                       <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">About Ads</a></div>
+                        <div><a href="https://www.spotify.com/in-en/accessibility">Accessibility</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <header>
+                <nav>
+                    <div class="flex justify-center item-center"">
+
+                        <div class="ham">
+                            <button><img src="svg/ham.svg" alt=""></button>
+                        </div>
+                        <div class="arrow">
+                            <span>
+                                <img class="invert" src="svg/left-arrow.svg" alt="arrow">
+                            </span>
+                            <span>
+                                <img class="invert" src="svg/right-arrow.svg" alt="left">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="sign-up"><a a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"> Sign Up</a></button>
+                        <button class="log-in"><a href="https://accounts.spotify.com/en-GB/login?continue=https%3A%2F%2Fopen.spotify.com%2F"> Log in</a></button>
+                    </div>
+                </nav>
+            </header>
+            <div class="playlist-container">
+                <h2>Spotify Playlist</h2>
+                <div class="playlist-box">
+                    
+                 </div>
+                <div class="playbox">
+                    <div class="bar">
+                        <div class="play-text"></div>
+                        <div class="play-btns">
+                            <div id="previous"><img src="svg/previous.svg" alt="previous"></div>
+                            <div id="play"><img src="svg/play-circle.svg" alt=""></div>
+                            <div id="next"><img src="svg/next.svg" alt="next"></div>
+                        </div>
+                        <div class="vol">
+                            <div class="play-time"></div>
+                            <div class="volumn">
+                                <img class="speaker" src="svg/volumn.svg" alt="volumn">
+                                <div class="range">
+                                    <input type="range" name="volumn">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div id="circle"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text ">
+            <h3>Preview of Spotify</h3>
+            <h3>Sign up to get unlimited songs and podcast with occasional ads.No credit casrd needed.</h3>
+        </div>
+        <button class="sign-in "><a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">Sign up for free</a></button>
+
+    </footer>
+    <script src="script.js "></script>
+</body>
+
+</html>
