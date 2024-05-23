@@ -10,10 +10,10 @@ A web-based music player inspired by Spotify, built with HTML, CSS, and JavaScri
 
 ## Screenshots
 
-![Home Page](screenshot/spotify.png)
+![Home Page](spotify.png.png)
 *Home Page*
 
-![Now Playing](screenshot/playing.png)
+![Now Playing](playing.png.png)
 *Now Playing*
 
 ## Installation
